@@ -73,6 +73,10 @@ class _CounterViewState extends State<CounterView> {
             const SizedBox(
               height: 10,
             ),
+            const Text('Contador:'),
+            const SizedBox(
+              height: 5,
+            ),
             const CounterText(),
             const SizedBox(height: 5),
             ElevatedButton(
